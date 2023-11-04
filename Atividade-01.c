@@ -6,10 +6,9 @@ typedef struct {
 } Funcionario;
 
 void validaQuantidade(Funcionario *funcionario) {
-    printf("Digite a quantidade de peças fabricadas: ");
+    printf("Digite a quantidade de pecas fabricadas: ");
     scanf("%d", &(funcionario->quantidadePecas));
 
-    // Validar a entrada (se necessário)
 }
 
 void calculaSalario(Funcionario *funcionario) {
@@ -26,7 +25,7 @@ void calculaSalario(Funcionario *funcionario) {
 }
 
 void mostraFinal(Funcionario *funcionario) {
-    printf("Salário final do funcionário: R$%.2f\n", funcionario->salario);
+    printf("Salario final do funcionario: R$%.2f\n", funcionario->salario);
 }
 
 int main() {
