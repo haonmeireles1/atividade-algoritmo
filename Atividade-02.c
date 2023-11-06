@@ -56,8 +56,8 @@ int main() {
         }
     }
 
-    printf("Total de assalariados abaixo do salário mínimo: %d\n", totalAbaixoSalarioMinimo);
-    printf("Total de assalariados acima do salário mínimo: %d\n", totalAcimaSalarioMinimo);
+    printf("Total de assalariados abaixo do salario minimo: %d\n", totalAbaixoSalarioMinimo);
+    printf("Total de assalariados acima do salario minimo: %d\n", totalAcimaSalarioMinimo);
 
     return 0;
 }
