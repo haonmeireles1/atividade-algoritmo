@@ -36,7 +36,7 @@ char* classificaSalario(float salario) {
 void mostraClassifica(Assalariado assalariado) {
     printf("Sexo: %c\n", assalariado.sexo);
     printf("Salario: R$%.2f\n", assalariado.salario);
-    printf("Classificacap em relacao ao salario minimo: %s\n\n", classificaSalario(assalariado.salario));
+    printf("Classificacao em relacao ao salario minimo: %s\n\n", classificaSalario(assalariado.salario));
 }
 
 int main() {
