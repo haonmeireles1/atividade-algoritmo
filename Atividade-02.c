@@ -17,7 +17,7 @@ char validaSexo() {
 float validaSalario() {
     float salario;
     do {
-        printf("Informe o salário: ");
+        printf("Informe o salario: ");
         scanf("%f", &salario);
     } while(salario <= 1);
     return salario;
@@ -35,8 +35,8 @@ char* classificaSalario(float salario) {
 
 void mostraClassifica(Assalariado assalariado) {
     printf("Sexo: %c\n", assalariado.sexo);
-    printf("Salário: R$%.2f\n", assalariado.salario);
-    printf("Classificação em relação ao salário mínimo: %s\n\n", classificaSalario(assalariado.salario));
+    printf("Salario: R$%.2f\n", assalariado.salario);
+    printf("Classificacap em relacao ao salario minimo: %s\n\n", classificaSalario(assalariado.salario));
 }
 
 int main() {
